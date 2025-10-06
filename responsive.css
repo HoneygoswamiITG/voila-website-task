@@ -1,0 +1,144 @@
+@media screen and (max-width: 1200px) {
+    .header {
+        max-width: 91.5%;
+    }
+
+    .video-content {
+        top: 598px;
+        left: 110px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .header {
+        max-width: 90.5%;
+    }
+
+    .video-content {
+        top: 408px;
+        left: 79px;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .video-content {
+        top: 585px;
+        left: 74px;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .header {
+        padding-top: 20px;
+        padding-bottom: 18px;
+    }
+
+    /* .video-content {
+        top: 412px;
+        left: 74px;
+    } */
+}
+
+@media screen and (max-width: 990px) {
+    .header {
+        padding-top: 18px;
+        padding-bottom: 17px;
+        max-width: 89.5%;
+    }
+
+    .header-section {
+        padding: 0px 0px 0px 23px;
+        padding-top: 21px;
+    }
+
+    .nav-icon {
+        display: block;
+        width: 22px;
+        color: #435870;
+    }
+
+    .header-heading-logo {
+        text-align: center;
+    }
+
+    .header-inline-menu {
+        display: none;
+    }
+
+    .video-content {
+        top: 355px;
+        left: 57px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .banner__heading {
+        font-size: 35px;
+        max-width: 790px;
+    }
+
+    .custom-button {
+        width: 162px;
+        height: 60px;
+    }
+
+    .video-content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 22px;
+    }
+
+    .video-content {
+        top: 285px;
+        left: 57px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .header {
+        max-width: 85.5%;
+    }
+
+    .video-main video {
+        aspect-ratio: 9/10;
+    }
+
+    .header-section {
+        padding: 0px 0px 0px 36px;
+        padding-top: 21px;
+    }
+
+    .video-content {
+        top: 615px;
+        left: 57px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .header {
+        max-width: 81.5%;
+    }
+
+    .video-content {
+        bottom: -79px;
+        left: 57px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .header {
+        max-width: 74.5%;
+    }
+
+    .header-section {
+        padding: 0px 0px 0px 63px;
+        padding-top: 21px;
+    }
+
+    .video-content {
+        left: 57px;
+        top: 615px;
+        text-align: center;
+    }
+}
